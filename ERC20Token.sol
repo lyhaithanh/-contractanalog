@@ -18,8 +18,8 @@
 
 pragma solidity ^0.5.9;
 
-import "./IERC20Token.sol";
-import "./IGmpReceiver.sol";
+import "https://cdn.jsdelivr.net/gh/lyhaithanh/-contractanalog@main/IERC20Token.sol";
+import "https://cdn.jsdelivr.net/gh/lyhaithanh/-contractanalog@main/IGmpReceiver.sol";
 
 contract ERC20Token is IERC20Token, IGmpReceiver  {
     mapping(address => uint256) internal balances;
